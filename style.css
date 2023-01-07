@@ -78,6 +78,7 @@
     color: gray;
     border-radius: 25px;
     font-size: 22px;
+    margin-top: 80px;
 }
 .Service-title{
     font-size: 35px;
@@ -104,19 +105,51 @@
 }
 .author-image{
     border-radius: 100px;
-    height:100px;
-    width: 100px;
+    height:150px;
+    width: 150px;
     margin:20px;
     
 }
 .more-details{
     display: flex;
     align-items: center;
+    margin-left: 10px;
 }
 .more-btn{
     padding: 20px;
     color: gray;
     border-radius: 25px;
-    font-size: 22px;
+    font-size: 18px;
 }
+.service{
+    padding: 50px;
+    
+    background-color: white;
+    box-shadow: 4px 4px 4px gray;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
 
+}
+.service-logo{
+    width:50% ;
+    padding-bottom:5px;
+}
+.service-up{
+    display: flex;
+}
+.service-down{
+    display: flex;
+}
+.service-container{
+    display: flex;
+    
+}
+.service-right-container{
+    padding-right: 50px;
+}
